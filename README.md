@@ -1,4 +1,4 @@
-# test-app in VueJS
+# Public APIs catalog in VueJS
 
 ver.1.0
 
