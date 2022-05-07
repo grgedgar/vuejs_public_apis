@@ -1,0 +1,137 @@
+* {
+    color: black;
+}
+
+h3 {
+    margin: 0;
+}
+
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 0;
+}
+
+button {
+    padding: 6px 8px 5px;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 9px;
+    background-color: #f9f9f9;
+}
+
+button:hover {
+    background-color: #ddd;
+}
+
+input {
+ margin-top: 10px;
+ padding: 5px;
+ border: 1px solid gray;
+}
+
+button,
+input,
+select {
+    cursor: pointer;
+}
+
+.app {
+    width: 1000px;
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 5px auto;
+    user-select: none;
+}
+
+.logo_and_title_container {
+    margin-bottom: 10px;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.title {
+    padding: 0;
+    margin: 0;
+}
+
+.api_categories_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin: auto;
+}
+
+.categories_title {
+    padding-bottom: 5px;
+}
+
+.api_categories_container button {
+    margin:5px;
+}
+
+.api_categories_container .active {
+    background-color: black;
+    color: white;
+}
+
+.chosen_category_and_search_container {
+    height: 64px;
+    margin-top: 15px;
+}
+.chosen_category {
+    text-align: center;
+}
+
+.search_container{
+    float: right;
+}
+
+.search_container input {
+    margin-top: 0;
+}
+
+.api_list_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    background-color: #f9f9f9;
+}
+
+.api_list_container a {
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.api_list_container a:hover {
+    background-color: #ddd;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.show_more_apis {
+    padding-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .api_list_container a {
+        width: 400px;
+    }
+}
