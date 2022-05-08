@@ -38,7 +38,7 @@
     <div v-if="entries.length > 8 && lastEntryID < entries.length" class="show_more_apis" @click="showMoreAPIs()" >
       <i class='angle down icon'></i>
       <a href="#/" class="link">
-      Show more
+      Show more ({{entries.length - lastEntryID}})
       </a>
     </div>
   </div>
